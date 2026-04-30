@@ -1,0 +1,14 @@
+1. What is the difference between black box and white box testing?
+2. Explain equivalence partitioning with an example.
+3. How do you design test cases for a login functionality?
+4. What are the different types of software testing?
+5. Generate a question about boundary value analysis.
+6. Design test cases for this requirement: "User should be able to add items to shopping cart"
+7. What is regression testing and when should it be performed?
+8. Explain the concept of test coverage and its importance.
+9. How would you test a payment processing system?
+10. What are the key differences between unit testing and integration testing?
+
+# myenv/Scripts/Activate
+# python main.py
+# chainlit run app.py
