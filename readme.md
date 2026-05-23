@@ -127,7 +127,7 @@ python main.py
 
 **上下文工具（`utility.py`）** - `get_context` 与 `compress_context` 用于构建/压缩聊天历史。`append_to_response` 记录带有 IST 时间戳的工具调用。`remove_think` 用于剥离 `<think>` 块。
 
-**工具与检索（`main.py`）** - 基于 BM25 + ChromaDB 的混合 PDF 搜索。包含网页工具如 `google_search` 与 `wiki_lookup`。还包含用于金融计算（Sharpe、击球率、捕获比率、跟踪误差、最大回撤）的计算器。
+**工具与检索（`main.py`）** - 基于 BM25 + ChromaDB 的混合 PDF 搜索。包含网页工具如 `google_search` 与 `wiki_lookup`。
 
 **编排有向图** - 使用 `StateGraph`（langgraph）构建。节点：输入 → 意图路由 → 工具节点 → 检查 → 扩展/回答 → 结束。路由器根据 LLM/工具输出引导流程。
 
