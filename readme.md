@@ -39,11 +39,6 @@
 ## 工作流
 <img src="Output and Workflow/graph.png" width="600"/>
 
-## Chainlit 界面
-<img src="Output and Workflow/ui.png" width="800"/>
-
-## 输出
-![Output](<Output and Workflow/output.png>)
 
 ## 文件夹结构
 
